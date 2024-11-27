@@ -3,4 +3,5 @@
     <string name="Share_description">Share recipe</string>
     <string name="Account_description">Account</string>
     <string name="Refresh_description">Refresh</string>
+    <string name="Menu_description">Menu</string>
 </resources>
