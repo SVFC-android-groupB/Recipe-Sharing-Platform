@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Recipe Sharing Platform</string>
+    <string name="Share_description">Share recipe</string>
+    <string name="Account_description">Account</string>
 </resources>
