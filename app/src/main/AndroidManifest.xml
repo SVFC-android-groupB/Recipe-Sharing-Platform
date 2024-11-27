@@ -13,6 +13,12 @@
         android:theme="@style/Theme.RecipeSharingPlatform"
         tools:targetApi="31">
         <activity
+            android:name=".signin_signup.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".signin_signup.SignIn"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
