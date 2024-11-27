@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "176165980596",
+    "project_id": "recipe-sharing-platform-b156d",
+    "storage_bucket": "recipe-sharing-platform-b156d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176165980596:android:fed3a305acbc5aa78b4ae1",
+        "android_client_info": {
+          "package_name": "com.sandro.hobayan.recipesharingplatform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC__61m6pM35LrUDNdM2XdBt5sNpv1n4L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

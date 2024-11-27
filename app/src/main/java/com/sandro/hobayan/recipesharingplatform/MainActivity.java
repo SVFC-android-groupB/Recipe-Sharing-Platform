@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void toSignin(){
-        Intent signin = new Intent(MainActivity.this, SignIn.class):
+        Intent signin = new Intent(MainActivity.this, SignIn.class);
         startActivity(signin);
     }
 }

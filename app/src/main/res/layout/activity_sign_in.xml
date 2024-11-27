@@ -38,7 +38,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Log In"
+                android:text="Sign In"
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#333"
@@ -76,14 +76,13 @@
                 />
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_signin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Log In"
-                android:textSize="20sp"
                 android:layout_marginHorizontal="50dp"
                 android:layout_marginTop="40dp"
-                />
+                android:text="Sign In"
+                android:textSize="20sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
