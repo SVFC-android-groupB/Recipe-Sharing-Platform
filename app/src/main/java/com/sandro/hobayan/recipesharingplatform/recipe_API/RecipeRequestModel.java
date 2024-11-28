@@ -1,6 +1,6 @@
-package com.sandro.hobayan.recipesharingplatform.recipeModel;
+package com.sandro.hobayan.recipesharingplatform.recipe_API;
 
-public class RecipeModel {
+public class RecipeRequestModel {
     private int id;
     private String recipeName;
     private String recipeDescription;

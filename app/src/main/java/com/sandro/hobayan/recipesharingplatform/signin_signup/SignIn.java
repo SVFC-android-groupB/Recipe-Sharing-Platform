@@ -9,9 +9,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.sandro.hobayan.recipesharingplatform.MainActivity;
+import com.sandro.hobayan.recipesharingplatform.main.MainActivity;
 import com.sandro.hobayan.recipesharingplatform.R;
-import com.sandro.hobayan.recipesharingplatform.SessionManager;
+import com.sandro.hobayan.recipesharingplatform.main.SessionManager;
 
 public class SignIn extends AppCompatActivity {
 

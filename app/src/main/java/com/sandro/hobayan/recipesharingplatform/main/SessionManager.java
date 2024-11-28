@@ -1,8 +1,7 @@
-package com.sandro.hobayan.recipesharingplatform;
+package com.sandro.hobayan.recipesharingplatform.main;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.se.omapi.Session;
 
 public class SessionManager {
 

@@ -1,4 +1,4 @@
-package com.sandro.hobayan.recipesharingplatform;
+package com.sandro.hobayan.recipesharingplatform.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.sandro.hobayan.recipesharingplatform.R;
 
 public class MainActivityMenu extends AppCompatActivity {
 

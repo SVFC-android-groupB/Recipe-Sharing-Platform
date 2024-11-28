@@ -10,16 +10,16 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sandro.hobayan.recipesharingplatform.R;
-import com.sandro.hobayan.recipesharingplatform.recipeModel.RecipeModel;
+import com.sandro.hobayan.recipesharingplatform.recipe_API.RecipeRequestModel;
 
 import java.util.List;
 
 public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder> {
 
-    List<RecipeModel> recipeModelList;
+    List<RecipeRequestModel> recipeRequestModelList;
 
-    public RecipeAdapter(List<RecipeModel> recipeModelList) {
-        this.recipeModelList = recipeModelList;
+    public RecipeAdapter(List<RecipeRequestModel> recipeRequestModelList) {
+        this.recipeRequestModelList = recipeRequestModelList;
     }
 
     @NonNull
@@ -33,15 +33,15 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
     @Override
     public void onBindViewHolder(@NonNull RecipeAdapter.RecipeViewHolder holder, int position) {
 
-        RecipeModel recipeModel = recipeModelList.get(position);
-        holder.tvRecipeName.setText(recipeModel.getRecipes());
-        holder.ivRecipe.setImageResource(recipeModel.getRecipeImage());
+        RecipeRequestModel recipeRequestModel = recipeRequestModelList.get(position);
+        holder.tvRecipeName.setText(recipeRequestModel.getRecipes());
+        holder.ivRecipe.setImageResource(recipeRequestModel.getRecipeImage());
 
     }
 
     @Override
     public int getItemCount() {
-        return recipeModelList.size();
+        return recipeRequestModelList.size();
     }
 
     public static class RecipeViewHolder extends RecyclerView.ViewHolder {

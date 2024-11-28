@@ -46,4 +46,9 @@ dependencies {
 
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
     implementation("com.google.firebase:firebase-analytics")
+
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")    // retrofit for API
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+
 }
