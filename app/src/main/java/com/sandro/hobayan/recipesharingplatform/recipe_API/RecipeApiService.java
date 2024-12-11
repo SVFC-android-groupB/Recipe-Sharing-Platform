@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 
 public class RecipeApiService {
     @GET("filter.php?a=Filipino")
-    public Call<List<RecipeRequestModel>> getFilipinoRecipes() {
+    public Call<List<RecipeModel>> getFilipinoRecipes() {
         return null;
     }
 }
